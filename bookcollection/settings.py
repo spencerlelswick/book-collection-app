@@ -79,8 +79,13 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'bookscollection',
+        # 'HOST': 'localhost',  
+        # 'USER': 'admin',
+        # 'PASSWORD': 'test', 
+        # 'PORT': 3000  
     }
 }
+
 
 
 # Password validation
