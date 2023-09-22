@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'bookcollection.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'bookscollection',
+        'NAME': 'bookcollector',
         # 'HOST': 'localhost',  
         # 'USER': 'admin',
         # 'PASSWORD': 'test', 
