@@ -19,8 +19,9 @@
           <li><a href="{% url 'home' %}" class="left brand-logo">&nbsp;&nbsp;Book Collector</a></li>
         </ul>
         <ul class="right">
-          <li><a href="/about">About</a></li>
-          <li><a href="/books">Books</a></li>
+          <li><a href="{% url 'about' %}">About</a></li>
+          <li><a href="{% url 'books_create' %}">Add book</a></li>
+          <li><a href="{% url 'index' %}">Books</a></li>
         </ul>
       </div>
     </nav>
